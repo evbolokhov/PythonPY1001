@@ -1,6 +1,6 @@
 # TODO
 
-
+from collection import Counter
 if __name__ == "__main__":
     main_str = """
         Данное предложение будет разбиваться на отдельные слова. 
