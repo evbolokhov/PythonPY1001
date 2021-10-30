@@ -6,7 +6,9 @@ if __name__ == "__main__":
     }
 
     # TODO посчитать через ключи
-    for fruit in cart:
+    sum_ = 0
+    for fruit in cart.values():
         print(cart[fruit])  # получаем значение по ключу
-
+        sim_ += cart[fruit]
+    print(sum_)
     # TODO посчитать через метод values
