@@ -1,3 +1,9 @@
+def long_word():
+    a = input()
+    b = a.split()
+    n = (max(b, key=len))
+    return n
+
+
 if __name__ == "__main__":
-    # Write your solution here
-    pass
+    print(long_word())
