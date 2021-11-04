@@ -10,7 +10,7 @@ files:
       length: 53
       offset: 48
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: '[i ** 2 for i in range(n) if i % 2 == 0])'
   text: |
@@ -22,5 +22,7 @@ files:
   visible: false
   learner_created: false
 status: Solved
+feedback:
+  time: Thu, 04 Nov 2021 21:02:29 UTC
 record: -1
 post_submission_on_open: true
